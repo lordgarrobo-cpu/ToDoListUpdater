@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": { "title": "Tareas API (GitHub Pages)", "version": "1.0.0" },
   "servers": [
-    { "url": "https://lordgarrobo-cpu.github.io/ToDoListUpdater" }
+    { "url": "https://lordgarrobo-cpu.github.io/ToDoListUpdater/" }
   ],
   "paths": {
     "/data/tareas.json": {
