@@ -1,0 +1,30 @@
+name: Build data from OneDrive
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"   # diario 12:00 UTC (~06:00 Guatemala)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pandas openpyxl requests
+      - name: Build data
+        env:
+          ONEDRIVE_URL: ${{ secrets.ONEDRIVE_URL }}
+          SHEET: "0"  # o el nombre de la hoja, p. ej. "Tareas"
+        run: python scripts/build.py
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tareas.json data/tareas.csv || true
+          git commit -m "Auto-build data" || echo "No changes"
+          git push
