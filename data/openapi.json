@@ -1,0 +1,25 @@
+{
+  "openapi": "3.1.0",
+  "info": { "title": "Tareas API (GitHub Pages)", "version": "1.0.0" },
+  "servers": [
+    { "url": "https://lordgarrobo-cpu.github.io/ToDoListUpdater" }
+  ],
+  "paths": {
+    "/data/tareas.json": {
+      "get": {
+        "operationId": "getTareas",
+        "summary": "Obtener tareas procesadas desde Excel",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { "type": "array", "items": { "type": "object" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
