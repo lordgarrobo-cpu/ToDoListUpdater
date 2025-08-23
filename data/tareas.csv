@@ -5,12 +5,12 @@ Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unn
 ,,Tarea,Descripcion,Depende de:,Prioridad,Fecha especifica,Fecha,Tiene fecha limite,Fecha limite,Se repite,cada cuanto,Estado
 ,,Preparar publicacion para el dia lunes,,,Alta,No,,Si,2025-08-25 00:00:00,No,,Pendiente
 ,,Publicar en Meta,Programar la publicacion en meta correspodiente al dia viernes,Preparar publicacion para el dia lunes,Alta,No,,Si,2025-08-25 00:00:00,No,,Pendiente
-,,,,,,,,,,,,
+,,Comercializacion Pasaje San Jose,"Tener un documento con los datos importantes de la comercializacion del pasaje, precios y funcionamiento del paqueo",,,,,Si,2025-08-25 00:00:00,No,,Pendiente
 ,,Sesion Katze,Esperar que respondan mensajes de instagram ya que la encargada no se encontro en el lugar al momento de la visita,,Baja,No,,Si,2025-08-31 00:00:00,No,,En progreso
 ,,Pautar en meta,Pagar una pauta para la fanpage,,Alta,,,Si,2025-08-21 00:00:00,No,,Pendiente
-,,,,,,,,,,,,
+,,Rectificar presupuestos,"Realizar comparativa de pagos realizados por la remodelacion con el presupuesto asignado, asi como los pagos pendientes",,Alta,,,Si,2025-08-25 00:00:00,No,,
 ,,Manta pasaje,Hacer y colgar manta pasaje san Jose,,Alta,No,,Si,2025-08-25 00:00:00,No,,En progreso
-,,Fotos chuchos,Fotografia con orejas de res,,Alta,Si,2025-08-22 00:00:00,,,No,,Pendiente
+,,Fotos chuchos,Fotografia con orejas de res,,Alta,No,,Si,2025-08-25 00:00:00,No,,Pendiente
 ,,Sesion de fotos con gato Maria Elena,Agendada para las 10 A.M.,,Alta,Si,2025-08-27 00:00:00,No,,No,,Pendiente
 ,,Sesion de fotos perro Nata,Agendada para las 10 A.M.,,Alta,Si,2025-08-28 00:00:00,No,,No,,Pendiente
 ,,,,,,,,,,,,
