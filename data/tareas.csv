@@ -3,11 +3,11 @@ Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unn
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,Tarea,Descripcion,Depende de:,Prioridad,Fecha especifica,Fecha,Tiene fecha limite,Fecha limite,Se repite,cada cuanto,Estado
-,,,,,,,,,,,,
-,,Afiche taller poetry,,,Alta,Si,2025-10-02 00:00:00,,,,,Completada
-,,,,,,,,,,,,
-,,,,,,,,,,,,
+,,Formatear servidor,,,Alta,,,Si,2025-10-13 00:00:00,,,Pendiente
+,,Montar servidor perforce,,,Alta,,,Si,2025-10-15 00:00:00,,,Pendiente
+,,Pruebas GG,,,Alta,,,Si,2025-10-14 00:00:00,,,Pendiente
+,,Ir a grabar al mercadito,,,Alta,Si,2025-10-10 00:00:00,,,,,Pendiente
 ,,Ir a pasaje san jose,,,Alta,,,Si,2025-10-07 00:00:00,,,Completada
 ,,Lanzar promocion Halloween,,,Alta,,,Si,2025-10-05 00:00:00,,,En progreso
-,,Cita sicologa,,,Alta,Si,2025-10-08 00:00:00,,,,,Pendiente
+,,,,,,,,,,,,
 ,,Taller poetry,,,Alta,Si,2025-10-11 00:00:00,,,,,Pendiente
